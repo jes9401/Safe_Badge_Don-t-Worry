@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff2cc"
+    android:layout_height="match_parent"
+    tools:context=".GPS.GpsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:fontFamily="@font/seoulnamsan_bo"
+        android:background="#f9db22">
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="6dp"
+            android:background="#f9db22"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/seoulnamsan_bo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="주 변 위 치 보 기"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_height="35dp">
+        <TextView
+            android:id="@+id/yesorno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:text="현재상황보기"
+            android:textColor="#433a35"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="9dp"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#433a35"
+            android:fontFamily="@font/bmjua_ttf"
+            android:layout_marginRight="3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="OFF"/>
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/switchbtn"
+            style="@style/SwitchButtonStyle"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+        <TextView
+            android:id="@+id/abc"
+            android:textSize="20dp"
+            android:fontFamily="@font/bmjua_ttf"
+            android:textColor="#433a35"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ON"/>
+        <ImageButton
+            android:src="@drawable/reload"
+            android:id="@+id/reload"
+            android:visibility="invisible"
+            android:layout_toRightOf="@+id/abc"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
+            android:background="#FFF2CD">
+        </ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.MapFragment"  />
+    </LinearLayout>
+</LinearLayout>
+

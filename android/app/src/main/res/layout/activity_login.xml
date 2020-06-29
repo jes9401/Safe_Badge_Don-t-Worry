@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/mainlogin"
+    android:background="@drawable/sbd_login2"
+    android:layout_height="match_parent"
+    tools:context=".ETC.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="400dp"
+            android:id="@+id/idedit"
+            android:layout_width="250dp"
+            android:fontFamily="@font/bmjua_ttf"
+            android:textColor="#433a35"
+            android:layout_height="25dp"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:hint="유치원 선택"
+            android:background="#F9DB22"/>
+
+        <EditText
+            android:id="@+id/passedit"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#433a35"
+            android:fontFamily="@font/bmjua_ttf"
+            android:layout_marginLeft="80dp"
+            android:layout_below="@+id/idedit"
+            android:background="@drawable/logineidttext"
+            android:gravity="center"
+            android:hint="자녀의 고유번호를 입력" />
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_below="@+id/passedit"
+            android:layout_width="250dp"
+            android:textColor="#433a35"
+            android:fontFamily="@font/bmjua_ttf"
+            android:layout_marginLeft="80dp"
+            android:layout_height="45dp"
+            android:text="Login"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:background="@null"/>
+    </RelativeLayout>
+</LinearLayout>

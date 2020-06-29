@@ -1,0 +1,400 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 8.1.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# Viminfo version
+|1,4
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 마지막으로 바꾼 문자열:
+$
+
+# 명령 행 히스토리 (새것부터 오래된 것 순):
+:wq
+|2,0,1590566180,,"wq"
+:q
+|2,0,1584262067,,"q"
+:ZZ
+|2,0,1582180465,,"ZZ"
+:w
+|2,0,1582004453,,"w"
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+? @$
+|2,1,1584262065,,"@$"
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 행 히스토리 (새것부터 오래된 것 순):
+
+# 디버그 행 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+""0	LINE	0
+	
+|3,1,0,1,1,0,1584262065,""
+"-	CHAR	0
+		
+|3,0,36,0,1,0,1582004415,"	"
+
+# 파일 마크:
+'0  4  22  ~/test.py
+|4,48,4,22,1590566180,"~/test.py"
+'1  6  7  ~/test.py
+|4,49,6,7,1590566159,"~/test.py"
+'2  6  7  ~/test.py
+|4,50,6,7,1590566159,"~/test.py"
+'3  5  30  ~/test.py
+|4,51,5,30,1590566146,"~/test.py"
+'4  6  3  ~/test.py
+|4,52,6,3,1590566146,"~/test.py"
+'5  5  30  ~/test.py
+|4,53,5,30,1590566146,"~/test.py"
+'6  6  3  ~/test.py
+|4,54,6,3,1590566146,"~/test.py"
+'7  3  26  ~/test.py
+|4,55,3,26,1590566128,"~/test.py"
+'8  3  26  ~/test.py
+|4,56,3,26,1590566128,"~/test.py"
+'9  3  26  ~/test.py
+|4,57,3,26,1590566128,"~/test.py"
+
+# 점프목록 (새것이 먼저):
+-'  4  22  ~/test.py
+|4,39,4,22,1590566180,"~/test.py"
+-'  6  7  ~/test.py
+|4,39,6,7,1590566170,"~/test.py"
+-'  6  7  ~/test.py
+|4,39,6,7,1590566159,"~/test.py"
+-'  5  30  ~/test.py
+|4,39,5,30,1590566149,"~/test.py"
+-'  5  30  ~/test.py
+|4,39,5,30,1590566149,"~/test.py"
+-'  6  3  ~/test.py
+|4,39,6,3,1590566146,"~/test.py"
+-'  3  26  ~/test.py
+|4,39,3,26,1590566134,"~/test.py"
+-'  3  26  ~/test.py
+|4,39,3,26,1590566134,"~/test.py"
+-'  3  26  ~/test.py
+|4,39,3,26,1590566134,"~/test.py"
+-'  3  26  ~/test.py
+|4,39,3,26,1590566128,"~/test.py"
+-'  10  3  ~/test.py
+|4,39,10,3,1590566115,"~/test.py"
+-'  10  3  ~/test.py
+|4,39,10,3,1590566115,"~/test.py"
+-'  10  3  ~/test.py
+|4,39,10,3,1590566115,"~/test.py"
+-'  10  3  ~/test.py
+|4,39,10,3,1590566115,"~/test.py"
+-'  10  3  ~/test.py
+|4,39,10,3,1590566101,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1590565874,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1590565874,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1590565874,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1590565874,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1590565874,"~/test.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  5  9  ~/server.py
+|4,39,5,9,1585553953,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  1  0  ~/server.py
+|4,39,1,0,1585552505,"~/server.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+-'  6  0  ~/DjangoProject/myWeb/Test1/models.py
+|4,39,6,0,1584337267,"~/DjangoProject/myWeb/Test1/models.py"
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/test.py
+	*	1590566179	0
+	"	4	22
+	^	4	23
+	.	4	22
+	+	9	68
+	+	10	23
+	+	9	3
+	+	10	3
+	+	3	27
+	+	3	33
+	+	4	42
+	+	5	31
+	+	4	0
+	+	5	0
+	+	5	27
+	+	4	22
+
+> ~/server.py
+	*	1585553952	0
+	"	5	9
+
+> ~/DjangoProject/myWeb/Test1/models.py
+	*	1584337264	0
+	"	6	0
+	^	6	0
+	.	6	0
+	+	6	0
+
+> ~/DjangoProject/myWeb/myWeb/settings.py
+	*	1584333015	0
+	"	28	26
+	^	28	27
+	.	28	26
+	+	39	33
+	+	40	11
+	+	107	21
+	+	109	22
+	+	28	26
+
+> ~/DjangoProject/myWeb/myWeb/urls.py
+	*	1584262247	0
+	"	18	22
+	^	18	23
+	.	18	22
+	+	23	0
+	+	22	31
+	+	19	0
+	+	18	22
+
+> ~/DjangoProject/myWeb/settings.py
+	*	1584262024	0
+	"	1	0
+
+> ~/DjangoProject/myWeb/Test1/views.py
+	*	1584262008	0
+	"	6	28
+	^	6	29
+	.	6	28
+	+	2	36
+	+	5	0
+	+	4	25
+	+	6	28
+
+> ~/graduation_project/graduation_project/urls.py
+	*	1584259878	0
+	"	21	11
+	^	21	12
+	.	22	10
+	+	22	7
+	+	16	59
+	+	22	8
+	+	21	9
+	+	21	36
+	+	21	35
+	+	22	27
+	+	16	31
+	+	21	9
+	+	22	9
+	+	21	10
+	+	22	10
+
+> ~/graduation_project/graduation_project/settings.py
+	*	1584259801	0
+	"	95	0
+	^	108	22
+	.	108	21
+	+	41	9
+	+	28	54
+	+	26	11
+	+	110	22
+	+	108	21
+
+> ~/graduation_project/graduation_project/settings.pyc
+	*	1584259794	0
+	"	1	0
+
+> ~/graduation_project/Web/settings.py
+	*	1584259447	0
+	"	1	0
+
+> ~/graduation_project/Web/views.py
+	*	1584259435	0
+	"	7	8
+	^	7	9
+	.	7	8
+	+	5	36
+	+	8	34
+	+	7	8
+
+> ~/js/app_and.js
+	*	1582180483	0
+	"	1	4
+	^	1	5
+	.	1	5
+	+	1	5
+
+> ~/js/led_web.js
+	*	1582004470	0
+	"	17	22
+	^	27	0
+	.	29	0
+	+	29	73
+	+	30	0
+	+	26	0
+	+	13	49
+	+	14	0
+	+	30	1
+	+	29	0
+	+	30	1
+	+	29	0

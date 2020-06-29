@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context=".Announce.AnnouncementActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#f9db22"
+        >
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="6dp"
+            android:background="#f9db22"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <TextView
+            android:fontFamily="@font/seoulnamsan_bo"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="알 림 장"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/Swipe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/post2_list"
+                android:layout_margin="10dp"
+                android:dividerHeight="2dp"
+                android:background="#ffffff"
+                android:divider="#bebebe">
+            </ListView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "358347468783",
+    "firebase_url": "https://jolrinpush.firebaseio.com",
+    "project_id": "jolrinpush",
+    "storage_bucket": "jolrinpush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358347468783:android:ac53911324d8af523c101a",
+        "android_client_info": {
+          "package_name": "com.dowellcomputer.naviexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358347468783-fj3c1sr38jmmhgom94c0uq6d5fukmcoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB79zY4M_RNC-fshkm7y-gUm9BovPu7msU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358347468783-fj3c1sr38jmmhgom94c0uq6d5fukmcoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

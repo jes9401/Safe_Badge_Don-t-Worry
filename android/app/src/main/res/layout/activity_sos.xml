@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff2cc"
+    tools:context=".SOS.SosActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:background="#f9db22">
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="6dp"
+            android:background="#f9db22"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="S O S"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/gps_btn"
+        android:layout_marginTop="80dp"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="#fff2cc"
+        android:src="@drawable/sosgpsbtn"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/call_btn"
+        android:layout_marginTop="40dp"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="#fff2cc"
+        android:src="@drawable/sosdialog"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/cctv_btn"
+        android:layout_marginTop="40dp"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="#fff2cc"
+        android:src="@drawable/soscctvbtn"
+        android:scaleType="fitXY"/>
+</LinearLayout>

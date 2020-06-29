@@ -1,0 +1,6 @@
+2020/03/16-13:14:08.218 4c9 Recovering log #18
+2020/03/16-13:14:08.236 4c9 Level-0 table #20: started
+2020/03/16-13:14:08.297 4c9 Level-0 table #20: 166 bytes OK
+2020/03/16-13:14:08.460 4c9 Delete type=0 #18
+2020/03/16-13:14:08.486 4c9 Delete type=3 #17
+2020/03/16-13:14:08.585 518 Moved #13 to level-1 215 bytes OK: files[ 3 1 0 0 0 0 0 ]

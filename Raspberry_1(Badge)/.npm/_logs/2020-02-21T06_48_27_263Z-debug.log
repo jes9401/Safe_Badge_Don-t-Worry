@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 warn npm npm does not support Node.js v10.15.2
+2 warn npm You should probably upgrade to a newer version of node as we
+3 warn npm can't make any promises that npm will work with this version.
+4 warn npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
+5 warn npm You can find the latest version at https://nodejs.org/
+6 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'autosave' ]
+7 info using npm@5.8.0
+8 info using node@v10.15.2
+9 verbose npm-session dab2270253c7ddba
+10 silly install loadCurrentTree
+11 silly install readGlobalPackageData
+12 http fetch GET 200 https://registry.npmjs.org/autosave 3402ms
+13 http fetch GET 200 https://registry.npmjs.org/autosave/-/autosave-1.0.3.tgz 847ms
+14 silly pacote tag manifest for autosave@latest fetched in 5230ms
+15 silly install loadIdealTree
+16 silly install cloneCurrentTreeToIdealTree
+17 silly install loadShrinkwrap
+18 silly install loadAllDepsIntoIdealTree
+19 silly resolveWithNewModule autosave@1.0.3 checking installable status
+20 http fetch GET 200 https://registry.npmjs.org/commander 481ms
+21 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-0.5.2.tgz 934ms
+22 silly pacote range manifest for commander@0.5.x fetched in 1664ms
+23 silly resolveWithNewModule commander@0.5.2 checking installable status
+24 silly currentTree lib
+25 silly idealTree lib
+25 silly idealTree └─┬ autosave@1.0.3
+25 silly idealTree   └── commander@0.5.2
+26 silly install generateActionsToTake
+27 warn checkPermissions Missing write access to /usr/local/lib
+28 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+29 verbose cwd /home/pi
+30 verbose Linux 4.19.75+
+31 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "autosave"
+32 verbose node v10.15.2
+33 verbose npm  v5.8.0
+34 error path /usr/local/lib
+35 error code EACCES
+36 error errno -13
+37 error syscall access
+38 error Error: EACCES: permission denied, access '/usr/local/lib'
+38 error  { [Error: EACCES: permission denied, access '/usr/local/lib']
+38 error   stack:
+38 error    'Error: EACCES: permission denied, access \'/usr/local/lib\'',
+38 error   errno: -13,
+38 error   code: 'EACCES',
+38 error   syscall: 'access',
+38 error   path: '/usr/local/lib' }
+39 error The operation was rejected by your operating system.
+39 error It is likely you do not have the permissions to access this file as the current user
+39 error
+39 error If you believe this might be a permissions issue, please double-check the
+39 error permissions of the file and its containing directories, or try running
+39 error the command again as root/Administrator (though this is not recommended).
+40 verbose exit [ -13, true ]

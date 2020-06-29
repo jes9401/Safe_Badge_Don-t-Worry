@@ -1,0 +1,24 @@
+import serial
+import pymysql
+import requests 
+import json
+
+
+ser= serial.Serial(port='/dev/ttyACM0',baudrate=9600)
+while True:
+    if ser.readable():
+        res = ser.readline()
+        res = res.rstrip()
+        res_list=res.split("/")
+        
+        if(len(res_list)>=3):
+            print(res_list)
+            name= res_list[0]
+            phone = res_list[1]
+            kindergarden = res_list[2]
+            personal_id = res_list[3]
+			url2="http://jes9401.pythonanywhere.com/rfid/"+personal_id+"/"
+			print(url2)
+            rfid_data={'name':name,'phone':phone,'kindergarden':kindergarden,'personal_id':personal_id}
+            rs=requests.post(url2,data=rfid_data)
+            print('request')

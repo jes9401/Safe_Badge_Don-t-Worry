@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 warn npm npm does not support Node.js v10.15.2
+2 warn npm You should probably upgrade to a newer version of node as we
+3 warn npm can't make any promises that npm will work with this version.
+4 warn npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
+5 warn npm You can find the latest version at https://nodejs.org/
+6 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'autosave' ]
+7 info using npm@5.8.0
+8 info using node@v10.15.2
+9 verbose npm-session 73c9fa4908a0f22d
+10 silly install loadCurrentTree
+11 silly install readGlobalPackageData
+12 http fetch GET 200 https://registry.npmjs.org/autosave 1090ms (from cache)
+13 silly pacote tag manifest for autosave@latest fetched in 1863ms
+14 silly install loadIdealTree
+15 silly install cloneCurrentTreeToIdealTree
+16 silly install loadShrinkwrap
+17 silly install loadAllDepsIntoIdealTree
+18 silly resolveWithNewModule autosave@1.0.3 checking installable status
+19 http fetch GET 304 https://registry.npmjs.org/commander 2476ms (from cache)
+20 silly pacote range manifest for commander@0.5.x fetched in 2807ms
+21 silly resolveWithNewModule commander@0.5.2 checking installable status
+22 silly currentTree lib
+23 silly idealTree lib
+23 silly idealTree └─┬ autosave@1.0.3
+23 silly idealTree   └── commander@0.5.2
+24 silly install generateActionsToTake
+25 warn checkPermissions Missing write access to /usr/local/lib
+26 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+27 verbose cwd /home/pi/js
+28 verbose Linux 4.19.75+
+29 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "autosave"
+30 verbose node v10.15.2
+31 verbose npm  v5.8.0
+32 error path /usr/local/lib
+33 error code EACCES
+34 error errno -13
+35 error syscall access
+36 error Error: EACCES: permission denied, access '/usr/local/lib'
+36 error  { [Error: EACCES: permission denied, access '/usr/local/lib']
+36 error   stack:
+36 error    'Error: EACCES: permission denied, access \'/usr/local/lib\'',
+36 error   errno: -13,
+36 error   code: 'EACCES',
+36 error   syscall: 'access',
+36 error   path: '/usr/local/lib' }
+37 error The operation was rejected by your operating system.
+37 error It is likely you do not have the permissions to access this file as the current user
+37 error
+37 error If you believe this might be a permissions issue, please double-check the
+37 error permissions of the file and its containing directories, or try running
+37 error the command again as root/Administrator (though this is not recommended).
+38 verbose exit [ -13, true ]

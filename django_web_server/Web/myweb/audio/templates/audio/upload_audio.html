@@ -1,0 +1,11 @@
+<head>
+    <title>audio_upload</title>
+</head>
+<body>
+<h1>파일 전송</h1>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class=btn btn-primary">전송</button>
+</form>
+</body>
